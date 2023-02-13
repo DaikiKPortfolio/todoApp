@@ -2,15 +2,15 @@ body {
   font-family: sans-serif;
 }
 .input_area {
-  background-color: aqua;
+  background-color: antiquewhite;
   width: 400px;
   height: 30px;
   padding: 8px;
   margin: 8px auto;
   border-radius: 8px;
 }
-.uncomplate_area {
-  background-color: aquamarine;
+.incomplate_area {
+  background-color: blueviolet;
   width: 400px;
   min-height: 200px;
   padding: 8px;
@@ -18,7 +18,7 @@ body {
   border-radius: 8px;
 }
 .complate_area {
-  background-color: brown;
+  background-color: gray;
   width: 400px;
   min-height: 200px;
   padding: 8px;
@@ -52,7 +52,15 @@ button:hover {
   font-weight: bold;
   color: aliceblue;
 }
-li div {
+
+li {
   padding-bottom: 4px;
-  text-decoration: none;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+.list_row {
+  display: flex;
 }
